@@ -2,6 +2,7 @@
 
 int x = 5;
 string y = "Hello";
+float f = 3.14F; // F is used to indicate a float literal
 bool z = true;
 double a = 3.14;
 char b = 'A';

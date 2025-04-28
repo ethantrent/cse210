@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args) // Main is called a method (function) in C#
     {
         // users first name
         Console.Write("What is your first name? ");
