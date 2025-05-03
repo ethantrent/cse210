@@ -21,6 +21,8 @@ class Program
         int squaredNumber = SquareNumber(number); // Calculate the squared number
         DisplayResult(name, squaredNumber); // Call the function to display the result
     }
+    // static means the method belongs to the class, not an instance of the class
+    // void means the method does not return a value
     static void DisplayWelcome()
     {
         Console.WriteLine("Welcome to the Program!");
@@ -36,6 +38,7 @@ class Program
         Console.Write("What is your favorite number? ");
         string input = Console.ReadLine(); // Read the user's favorite number
         int number = int.Parse(input); // Convert the input to an integer
+        // int number = int.Parse(Console.ReadLine()); // same as above in one line
         return number; // Return the number
     }
     static int SquareNumber(int number)
