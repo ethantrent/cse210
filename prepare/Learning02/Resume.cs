@@ -9,7 +9,7 @@ public class Resume
     public List<Job> _jobs = new List<Job>();
 
     // Method to display the resume
-    public void Display()
+    public void Display() // void means no return value, meaning it doesn't return anything
     {
         Console.WriteLine($"Name: {_name}");
         Console.WriteLine("Jobs:");
