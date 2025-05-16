@@ -8,7 +8,7 @@ public class Job
     int _startYear;
     int _endYear;
 
-// create a constructor
+    // create a constructor
     public Job(string _jobTitle, string _company, int _startYear, int _endYear)
     {
         this._jobTitle = _jobTitle;
