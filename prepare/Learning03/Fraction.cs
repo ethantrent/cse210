@@ -1,50 +1,51 @@
 public class Fraction
 {
-    private int _top;
-    private int _bottom;
+    // Attributes
+    private int _numerator;
+    private int _denominator;
 
     // Constructors
     public Fraction()
     {
-        _top = 1;
-        _bottom = 1;
-
+        _numerator = 1;
+        _denominator = 1;
     }
 
     public Fraction(int wholeNumber)
     {
-        _top = wholeNumber;
-        _bottom = 1;
+        _numerator = wholeNumber;
+        _denominator = 1;
     }
 
-    public Fraction(int top, int bottom)
+    public Fraction(int numerator, int denominator)
     {
-        _top = top;
-        _bottom = bottom;
+        _numerator = numerator;
+        _denominator = denominator;
     }
 
     // Getter and Setter
     public int Top
     {
-        get { return _top; }
-        set { _top = value; }
+        get { return _numerator; }
+        set { _numerator = value; }
     }
 
     public int Bottom
     {
-        get { return _bottom; }
-        set { _bottom = value; }
+        get { return _denominator; }
+        set { _denominator = value; }
     }
 
     // Get Fraction and Decimal
     public string GetFractionString()
     {
-        string text = $"{_top}/{_bottom}";
+        string text = $"{_numerator}/{_denominator}";
         return text;
     }
 
     public double GetDecimalValue()
     {
-        return (double)_top / _bottom;
+        double value = (double)_numerator / _denominator;
+        return value;
     }
 }
