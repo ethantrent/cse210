@@ -14,6 +14,8 @@ class Scripture
         foreach (string wordText in wordArray)
         {
             _words.Add(new Word(wordText));
+            // Word word = new Word(wordText);
+            // _words.Add(word);
         }
     }
     public string GetDisplayText()

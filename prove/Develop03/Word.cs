@@ -3,7 +3,7 @@ class Word
     private string _text;
     private bool _isHidden;
 
-    // Constructor
+    // Constructor (put values into attributes)
     public Word(string text)
     {
         _text = text;

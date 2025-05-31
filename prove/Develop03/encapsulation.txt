@@ -1,0 +1,51 @@
+1. Explain the meaning of Encapsulation
+
+Encapsulation means putting data (like variables) and the code that works with that data (like functions) together in one place, usually in a class. 
+It includes hiding the details, so people using your the code can’t change the important parts by accident.
+
+2. Highlight a benefit of Encapsulation
+
+Encapsulation helps protect your data. For example, if you have a bank account class, you don’t want anyone to set the balance to a negative number by mistake. 
+It lets you control how the data is changed, making the program safer and easier to fix or update later.
+
+3. Provide an application of Encapsulation
+
+In a banking app, you use it to keep the account balance safe and only allow deposits and withdrawals through special functions.
+
+4. Use a code example of Encapsulation from the program you wrote
+
+class Reference
+{
+    // Private attributes - data hiding
+    private string _book;
+    private int _chapter;
+    private int _startVerse;
+    private int _endVerse;
+    private bool _isSingleVerse;
+
+    // Public constructors - controlled initialization
+    public Reference(string book, int chapter, int verse)
+    {
+        _book = book;
+        _chapter = chapter;
+        _startVerse = verse;
+        _isSingleVerse = true;
+    }
+
+    // Public method - controlled access to internal state
+    public string GetDisplayText()
+    {
+        if (_isSingleVerse)
+        {
+            string text = $"{_book} {_chapter}:{_startVerse}";
+            return text;
+        }
+        else
+        {
+            string text = $"{_book} {_chapter}:{_startVerse}-{_endVerse}";
+            return text;
+        }
+    }
+}
+
+This example protects data integrity, simplifies the public interface, and allows internal implementation to change without affecting external code.

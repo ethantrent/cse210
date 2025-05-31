@@ -7,7 +7,7 @@ class Reference
     private int _endVerse;
     private bool _isSingleVerse;
 
-    // Constructors for verse ranges
+    // Constructors for verse ranges (put values into attributes)
     public Reference(string book, int chapter, int verse)
     {
         _book = book;
