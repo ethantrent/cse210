@@ -1,0 +1,17 @@
+1. Explain the meaning of Inheritance
+
+Inheritance is simply the ability to obtain the same attributes and methods of another class.
+
+2. Highlight a benefit of Inheritance
+
+A benefit of using inheritance is being able to use the same attributes and methods of relating classes
+so you don't have to rewrite them over and over, advocating for the DRY principle.
+
+3. Provide an application of Inheritance
+
+For example: if I were to create a class called "Animals" and added attributes such as color, age, and name,
+I could use inheritance to apply these attributes and methods to different animals. Tortise, otter, and slow loris 
+all could inherit the same attributes and methods from a base class called "Features" to describe the animal.
+
+4. Use a code example of Inheritance from the program you wrote
+
