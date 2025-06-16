@@ -15,3 +15,38 @@ all could inherit the same attributes and methods from a base class called "Feat
 
 4. Use a code example of Inheritance from the program you wrote
 
+// Base class
+abstract class Activity
+{
+    private string _name;
+    private string _description;
+    private int _duration;
+
+    public Activity(string name, string description)
+    {
+        _name = name;
+        _description = description;
+    }
+
+    public abstract void RunActivity();
+}
+
+// Derived class
+class BreathingActivity : Activity
+{
+    public BreathingActivity() : base(
+        "Breathing Activity",
+        "This activity will help you relax by walking your through breathing in and out slowly. Clear your mind and focus on your breathing."
+    )
+    {
+    }
+
+    public override void RunActivity()
+    {
+        // Specific implementation for breathing activity
+    }
+}
+
+This example shares common code between all activities and add new activities by inheriting from the base class
+
+
