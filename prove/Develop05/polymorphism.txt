@@ -1,0 +1,28 @@
+Explain the meaning of Polymorphism
+
+- Polymorphism means "many forms." It allows objects of different classes to be treated as objects of a common superclass.
+  Essentially, it enables a single function or method to behave differently based on the object it is acting upon.
+
+Highlight a benefit of Polymorphism
+
+- Code Reusability and Flexibility – Polymorphism allows developers to write generic code that works with different types of objects, 
+  making it easier to extend and maintain. You can add new classes with minimal changes to existing code.
+
+Provide an application of Polymorphism
+
+- In a graphics program, you might have a base class Shape with a method draw(). Subclasses like Circle, Square, and Triangle each implement 
+  their own draw() method. You can then write code that loops through a list of Shape objects and calls draw() on each—without needing to know 
+  the specific type of shape.
+
+Use a code example of Polymorphism from the program you wrote
+
+- In my program, I have a base class called Goal and several derived classes: SimpleGoal, EternalGoal, and ChecklistGoal. 
+  Each derived class implements the abstract methods from Goal in its own way. In the GoalManager class, I store a list of 
+  Goal objects, and I can call methods like RecordEvent() or GetDisplayString() on each goal without needing to know its specific type.
+
+  Example:
+
+  foreach (Goal goal in _goals)
+  {
+      Console.WriteLine(goal.GetDisplayString());
+  }
