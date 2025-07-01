@@ -1,0 +1,11 @@
+Project Option Chosen:
+Open-ended project
+
+Project Description:
+I will build an application called Workout Routine Recommendation System. This program will help users receive personalized workout plans based on 
+their fitness goals, experience level, available equipment, and workout history. Users will create a profile with their preferences and past workouts, 
+and the system will recommend a tailored routine by analyzing their data and matching it with a database of exercises. The application will track user 
+progress and allow them to mark workouts as complete, updating future recommendations accordingly.
+
+The code will include abstract base classes for exercises and workout plans, with subclasses for different workout types (strength, cardio, flexibility). 
+A recommendation engine will use polymorphism to provide different recommendation strategies. All data and logic will be encapsulated in classes.
