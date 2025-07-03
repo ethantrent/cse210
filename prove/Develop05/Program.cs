@@ -1,9 +1,3 @@
-// Creative Features and Exceeding Requirements:
-// - Added motivational messages after recording a goal event to encourage the user.
-// - Implemented an achievement system that unlocks achievements based on the user's score.
-// - Included a level display that shows the user's current level and points needed for the next level.
-// - Added a "Goal of the Day" feature to inspire daily focus.
-
 class Program
 {
     static void Main(string[] args)
@@ -11,7 +5,6 @@ class Program
         GoalManager goalManager = new GoalManager();
         string filename = "goals.txt";
         
-        // Load existing goals if available
         goalManager.LoadGoals(filename);
 
         bool quit = false;

@@ -1,0 +1,218 @@
+[
+  {
+    "Name": "Push Up",
+    "Type": "Strength",
+    "MuscleGroup": "Chest",
+    "Difficulty": "Beginner",
+    "Equipment": "None",
+    "Duration": 1
+  },
+  {
+    "Name": "Squat",
+    "Type": "Strength",
+    "MuscleGroup": "Legs",
+    "Difficulty": "Beginner",
+    "Equipment": "None",
+    "Duration": 1
+  },
+  {
+    "Name": "Plank",
+    "Type": "Strength",
+    "MuscleGroup": "Core",
+    "Difficulty": "Intermediate",
+    "Equipment": "None",
+    "Duration": 1
+  },
+  {
+    "Name": "Jumping Jacks",
+    "Type": "Cardio",
+    "MuscleGroup": "Full Body",
+    "Difficulty": "Beginner",
+    "Equipment": "None",
+    "Duration": 1
+  },
+  {
+    "Name": "Running",
+    "Type": "Cardio",
+    "MuscleGroup": "Legs",
+    "Difficulty": "Intermediate",
+    "Equipment": "Treadmill",
+    "Duration": 1
+  },
+  {
+    "Name": "Cycling",
+    "Type": "Cardio",
+    "MuscleGroup": "Legs",
+    "Difficulty": "Intermediate",
+    "Equipment": "Bicycle",
+    "Duration": 1
+  },
+  {
+    "Name": "Hamstring Stretch",
+    "Type": "Flexibility",
+    "MuscleGroup": "Legs",
+    "Difficulty": "Beginner",
+    "Equipment": "None",
+    "Duration": 1
+  },
+  {
+    "Name": "Shoulder Stretch",
+    "Type": "Flexibility",
+    "MuscleGroup": "Shoulders",
+    "Difficulty": "Beginner",
+    "Equipment": "None",
+    "Duration": 1
+  },
+  {
+    "Name": "Yoga Sun Salutation",
+    "Type": "Flexibility",
+    "MuscleGroup": "Full Body",
+    "Difficulty": "Intermediate",
+    "Equipment": "Yoga Mat",
+    "Duration": 1
+  },
+  {
+    "Name": "Barbell Bench Press",
+    "Type": "Strength",
+    "MuscleGroup": "Chest",
+    "Difficulty": "Intermediate",
+    "Equipment": "Barbell",
+    "Duration": 1,
+    "Sets": 4,
+    "Reps": 8,
+    "RestTime": 120,
+    "Tempo": "2-0-1"
+  },
+  {
+    "Name": "Dumbbell Flyes",
+    "Type": "Strength",
+    "MuscleGroup": "Chest",
+    "Difficulty": "Intermediate",
+    "Equipment": "Dumbbell",
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 12,
+    "RestTime": 90,
+    "Tempo": "2-1-2"
+  },
+  {
+    "Name": "Pull Up",
+    "Type": "Strength",
+    "MuscleGroup": "Back",
+    "Difficulty": "Advanced",
+    "Equipment": "Pull-up Bar",
+    "Duration": 1,
+    "Sets": 4,
+    "Reps": 6,
+    "RestTime": 120,
+    "Tempo": "2-0-2"
+  },
+  {
+    "Name": "Barbell Row",
+    "Type": "Strength",
+    "MuscleGroup": "Back",
+    "Difficulty": "Intermediate",
+    "Equipment": "Barbell",
+    "Duration": 1,
+    "Sets": 4,
+    "Reps": 8,
+    "RestTime": 120,
+    "Tempo": "2-0-2"
+  },
+  {
+    "Name": "Squat",
+    "Type": "Strength",
+    "MuscleGroup": "Legs",
+    "Difficulty": "Intermediate",
+    "Equipment": "Barbell",
+    "Duration": 1,
+    "Sets": 5,
+    "Reps": 5,
+    "RestTime": 180,
+    "Tempo": "3-1-1"
+  },
+  {
+    "Name": "Leg Extension",
+    "Type": "Strength",
+    "MuscleGroup": "Legs",
+    "Difficulty": "Beginner",
+    "Equipment": "Machine",
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 15,
+    "RestTime": 60,
+    "Tempo": "2-1-2"
+  },
+  {
+    "Name": "Barbell Curl",
+    "Type": "Strength",
+    "MuscleGroup": "Biceps",
+    "Difficulty": "Beginner",
+    "Equipment": "Barbell",
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 10,
+    "RestTime": 60,
+    "Tempo": "2-0-2"
+  },
+  {
+    "Name": "Triceps Pushdown",
+    "Type": "Strength",
+    "MuscleGroup": "Triceps",
+    "Difficulty": "Beginner",
+    "Equipment": "Cable",
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 12,
+    "RestTime": 60,
+    "Tempo": "2-0-2"
+  },
+  {
+    "Name": "Shoulder Press",
+    "Type": "Strength",
+    "MuscleGroup": "Shoulders",
+    "Difficulty": "Intermediate",
+    "Equipment": "Dumbbell",
+    "Duration": 1,
+    "Sets": 4,
+    "Reps": 8,
+    "RestTime": 90,
+    "Tempo": "2-0-2"
+  },
+  {
+    "Name": "Lateral Raise",
+    "Type": "Strength",
+    "MuscleGroup": "Shoulders",
+    "Difficulty": "Beginner",
+    "Equipment": "Dumbbell",
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 15,
+    "RestTime": 60,
+    "Tempo": "2-1-2"
+  },
+  {
+    "Name": "Deadlift",
+    "Type": "Strength",
+    "MuscleGroup": "Back",
+    "Difficulty": "Advanced",
+    "Equipment": "Barbell",
+    "Duration": 1,
+    "Sets": 5,
+    "Reps": 5,
+    "RestTime": 180,
+    "Tempo": "2-0-2"
+  },
+  {
+    "Name": "Calf Raise",
+    "Type": "Strength",
+    "MuscleGroup": "Calves",
+    "Difficulty": "Beginner",
+    "Equipment": "Machine",
+    "Duration": 1,
+    "Sets": 4,
+    "Reps": 12,
+    "RestTime": 60,
+    "Tempo": "2-1-2"
+  }
+] 

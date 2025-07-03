@@ -1,0 +1,79 @@
+classDiagram
+    class UserProfile {
+        - name: string
+        - age: int
+        - gender: string
+        - fitnessLevel: string
+        - goal: string
+        - equipment: List~string~
+        - history: WorkoutHistory
+        + updateProfile()
+        + getHistory()
+    }
+    class WorkoutHistory {
+        - completedPlans: List~WorkoutPlan~
+        - progress: string
+        + addPlan()
+        + getProgress()
+    }
+    class PlanManager {
+        - plans: List~WorkoutPlan~
+        + createPlan()
+        + getPlan()
+    }
+    class WorkoutPlan {
+        - name: string
+        - exercises: List~Exercise~
+        - duration: int
+        - difficulty: string
+        + generatePlan()
+    }
+    class Exercise {
+        - name: string
+        - type: string
+        - muscleGroup: string
+        - difficulty: string
+        - equipment: string
+        - duration: int
+    }
+    class StrengthPlan {
+        + generatePlan()
+    }
+    class CardioPlan {
+        + generatePlan()
+    }
+    class FlexibilityPlan {
+        + generatePlan()
+    }
+    class StrengthExercise {
+    }
+    class CardioExercise {
+    }
+    class FlexibilityExercise {
+    }
+    class RecommendationEngine {
+        + recommendPlan()
+    }
+    class ContentBasedRecommender {
+        + recommendPlan()
+    }
+    class ExerciseDatabase {
+        - exercises: List~Exercise~
+        + loadExercises()
+        + getExercises()
+    }
+    
+    UserProfile --> WorkoutHistory : 1
+    UserProfile --> PlanManager : 1
+    WorkoutHistory --> WorkoutPlan : *
+    PlanManager --> WorkoutPlan : *
+    WorkoutPlan o-- Exercise : *
+    StrengthPlan --|> WorkoutPlan
+    CardioPlan --|> WorkoutPlan
+    FlexibilityPlan --|> WorkoutPlan
+    StrengthExercise --|> Exercise
+    CardioExercise --|> Exercise
+    FlexibilityExercise --|> Exercise
+    ContentBasedRecommender --|> RecommendationEngine
+    RecommendationEngine --> WorkoutPlan : 1
+    ExerciseDatabase --> Exercise : * 
