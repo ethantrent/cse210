@@ -1,0 +1,8 @@
+I am working on a Fitness Tracker console application. The project is designed to help users manage their fitness routines, 
+track workouts, and receive exercise recommendations. So far, I have created the main classes from my design, including 
+UserProfile, Exercise, ExerciseDatabase, WorkoutPlan, PlanManager, WorkoutHistory, and RecommendationEngine. Each class has 
+its methods to represent the intended behaviors, even with some currently empty. The program compiles and runs without errors, 
+and there is a basic console menu that allows user interaction, simulating the final workflow of the application. 
+This includes options to view exercises, manage workout plans, and update user profiles.
+
+GitHub: https://github.com/ethantrent/cse210/tree/main/final/FinalProject

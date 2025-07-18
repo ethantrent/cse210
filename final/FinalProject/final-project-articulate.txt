@@ -1,0 +1,61 @@
+1. Briefly define each of the 4 principles of Programming with Classes.
+
+Abstraction: Abstraction is the process of focusing on the essential characteristics of an object while ignoring the 
+irrelevant details. This allows us to model complex systems by breaking them into simpler, more manageable components.
+
+Encapsulation: Encapsulation means bundling the data and the methods that operate on that data into a single unit, known as 
+a class. This also involves restricting access to some components of an object, which is done through access modifiers 
+like private, protected, and public.
+
+Inheritance: Inheritance lets us create new classes based on existing ones by inheriting their properties and behaviors. 
+This promotes code reuse and establishes a natural hierarchical relationship between classes.
+
+Polymorphism: Polymorphism is the ability of different classes to be treated as instances of the same class through a common 
+interface. It allows for methods to be called on objects of different types and have each respond in their own way.
+
+2. For each principle: Describe how each principle was used in your final project.
+
+Abstraction:
+In my Fitness Tracker project, I used abstraction by defining clear class structures for different fitness components. 
+For example, I created a base `Exercise` class that represents the common properties of all exercises 
+(name, type, muscle group, difficulty) without specifying how each specific exercise type is performed. I also used abstraction 
+in the `WorkoutPlan` base class, which defines the general structure of a workout plan without getting into the specific 
+details of how strength, cardio, or flexibility plans are generated.
+
+Encapsulation:
+I implemented encapsulation throughout my Fitness Tracker by keeping class attributes private and exposing only the necessary 
+methods through public properties and functions. For example, in the `UserProfile` class, I used C# properties with getters and 
+setters to control access to user data like name, age, fitness level, and goals. The `WorkoutHistory` class encapsulates the 
+user's workout data and only exposes it through controlled methods like `GetHistory()`. The `ExerciseDatabase` class encapsulates 
+the exercise data and provides controlled access through methods rather than exposing the raw data directly, ensuring the data 
+couldn't be changed accidentally.
+
+Inheritance:
+Inheritance came into play when I created subclasses that extended the functionality of base classes. I created a base `Exercise` 
+class and then made derived classes like `StrengthExercise`, `CardioExercise`, and `FlexibilityExercise` that inherited from 
+`Exercise`. Similarly, I created a base `WorkoutPlan` class and then made derived classes like `StrengthPlan`, `CardioPlan`, 
+and `FlexibilityPlan` that inherited from `WorkoutPlan`. I also used inheritance in the `RecommendationEngine` class, where 
+`ContentBasedRecommender` inherits from `RecommendationEngine`. This allowed me to reuse common code and add or override 
+functionality as needed.
+
+Polymorphism:
+Polymorphism was used whenever I needed to perform actions on a group of related objects, regardless of their specific class. 
+For instance, I could store a list of `Exercise` objects, and even though each object might be a different subclass 
+(StrengthExercise, CardioExercise, or FlexibilityExercise), I could work with them all as `Exercise` objects. Similarly, I 
+could store different types of `WorkoutPlan` objects (StrengthPlan, CardioPlan, FlexibilityPlan) in the same collection and 
+call the `GeneratePlan()` method on all of them, with each producing output appropriate for its specific type. The 
+`RecommendationEngine` uses polymorphism when it creates different types of workout plans but treats them all as `WorkoutPlan` 
+objects, allowing the system to recommend the appropriate plan type based on user goals and history.
+
+3. Overall: How did using these principles help your final project become more flexible for future changes?
+
+Applying these four principles made my project much more adaptable and easier to maintain. For example, because of abstraction, 
+if I need to add a new type of activity or feature, I can do so without affecting unrelated parts of the code. Encapsulation 
+ensures my data remains consistent and safe from unintended modifications, making bug tracking easier. Inheritance allowed me 
+to build new features quickly by leveraging existing code, so adding a new activity or behavior required less work. Thanks to 
+polymorphism, I can introduce new subclasses and be confident that the program will handle them correctly wherever the base 
+class is expected. 
+
+For example, if my app supports exporting data for different activity types, I can add a new activity with an export method 
+without changing the main processing logic. Using these principles helps me write code that’s easier to understand, modify, 
+and extend as project requirements grow or change.

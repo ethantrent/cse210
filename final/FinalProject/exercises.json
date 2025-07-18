@@ -5,7 +5,11 @@
     "MuscleGroup": "Chest",
     "Difficulty": "Beginner",
     "Equipment": "None",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 10,
+    "RestTime": 60,
+    "Tempo": "2-0-2"
   },
   {
     "Name": "Squat",
@@ -13,7 +17,11 @@
     "MuscleGroup": "Legs",
     "Difficulty": "Beginner",
     "Equipment": "None",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 12,
+    "RestTime": 90,
+    "Tempo": "2-0-2"
   },
   {
     "Name": "Plank",
@@ -21,7 +29,11 @@
     "MuscleGroup": "Core",
     "Difficulty": "Intermediate",
     "Equipment": "None",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 30,
+    "RestTime": 60,
+    "Tempo": "0-30-0"
   },
   {
     "Name": "Jumping Jacks",
@@ -29,7 +41,11 @@
     "MuscleGroup": "Full Body",
     "Difficulty": "Beginner",
     "Equipment": "None",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 20,
+    "RestTime": 30,
+    "Tempo": "1-0-1"
   },
   {
     "Name": "Running",
@@ -37,7 +53,11 @@
     "MuscleGroup": "Legs",
     "Difficulty": "Intermediate",
     "Equipment": "Treadmill",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 1,
+    "Reps": 20,
+    "RestTime": 0,
+    "Tempo": "0-20-0"
   },
   {
     "Name": "Cycling",
@@ -45,7 +65,11 @@
     "MuscleGroup": "Legs",
     "Difficulty": "Intermediate",
     "Equipment": "Bicycle",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 1,
+    "Reps": 15,
+    "RestTime": 0,
+    "Tempo": "0-15-0"
   },
   {
     "Name": "Hamstring Stretch",
@@ -53,7 +77,11 @@
     "MuscleGroup": "Legs",
     "Difficulty": "Beginner",
     "Equipment": "None",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 30,
+    "RestTime": 30,
+    "Tempo": "0-30-0"
   },
   {
     "Name": "Shoulder Stretch",
@@ -61,7 +89,11 @@
     "MuscleGroup": "Shoulders",
     "Difficulty": "Beginner",
     "Equipment": "None",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 30,
+    "RestTime": 30,
+    "Tempo": "0-30-0"
   },
   {
     "Name": "Yoga Sun Salutation",
@@ -69,7 +101,11 @@
     "MuscleGroup": "Full Body",
     "Difficulty": "Intermediate",
     "Equipment": "Yoga Mat",
-    "Duration": 1
+    "Duration": 1,
+    "Sets": 3,
+    "Reps": 5,
+    "RestTime": 60,
+    "Tempo": "2-0-2"
   },
   {
     "Name": "Barbell Bench Press",
